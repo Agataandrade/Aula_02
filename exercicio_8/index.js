@@ -2,12 +2,12 @@
 let saldo = 1000.00;
 
 // Operação a ser executada (1 = saldo, 2 = saque, 3 = depósito)
-let operacao = 3;  // 
+let operacao = 3;  
 
-// Valor a ser sacado ou depositado (somente usado nos casos 2 e 3)
-let valor = 500.00;  // Altere esse valor conforme necessário
+// Valor a ser sacado ou depositado 
+let valor = 500.00;  
 
-// Executa a operação
+
 switch (operacao) {
   case 1:
     console.log("Operação - Saldo");
