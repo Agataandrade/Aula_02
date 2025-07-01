@@ -2,15 +2,15 @@
 let nomeColaborador = "João da Silva";  // Nomes
 let codigoCargo = 1;                    // Cargos
 let salario = 10000.00;                 // Salário atual
-//let nomeColaborador = "Maria dos Anjos";  // 
-//let codigoCargo = 5;                    // 
-//let salario = 2000.00;                 // 
+//let nomeColaborador = "Maria dos Anjos";  
+//let codigoCargo = 5;                    
+//let salario = 2000.00;                
 
 // O nome do cargo e o percentual
 let nomeCargo = "";
 let percentualReajuste = 0;
 
-// Estrutura switch para identificar cargo e reajuste
+// Cargo e reajuste
 switch (codigoCargo) {
   case 1:
     nomeCargo = "Gerente";
