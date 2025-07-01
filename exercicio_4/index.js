@@ -40,7 +40,7 @@ let palavra3 = "onívoro";
 
 let animal = "Homem";
 
-// Condições usando apenas if
+
 if (palavra1 === "vertebrado") {
   if (palavra2 === "ave") {
     if (palavra3 === "carnívoro") {
