@@ -1,14 +1,14 @@
 // Descrição 
 let codigoProduto = 4; // 
 let quantidade = 2;    // 
-//let codigoProduto = 2; // Número entre 1 e 6
+//let codigoProduto = 2; // Número 
 //let quantidade = 5;    // Quantidade comprada
 
-// Variáveis para armazenar o nome e o preço
+// O nome e o preço
 let nomeProduto = "4";
 let precoUnitario = 0;
 
-// Estrutura condicional switch para identificar o produto e o preço
+// Identificar o produto e o preço
 switch (codigoProduto) {
   case 1:
     nomeProduto = "Cachorro Quente";
