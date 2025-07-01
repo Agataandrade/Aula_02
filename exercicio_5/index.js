@@ -8,7 +8,7 @@ let quantidade = 2;    //
 let nomeProduto = "4";
 let precoUnitario = 0;
 
-// Identificar o produto e o preço
+// Produto e o preço
 switch (codigoProduto) {
   case 1:
     nomeProduto = "Cachorro Quente";
