@@ -12,11 +12,11 @@ let numero1 = 10.0;
 let numero2 = 5.0;
 let operacao = 3;  // 1 = soma, 2 = subtração, 3 = multiplicação, 4 = divisão
 
-// Variável para armazenar o resultado
+// Armazenar o resultado
 let resultado = 0;
 let simbolo = "";
 
-// Estrutura switch para definir a operação
+
 switch (operacao) {
   case 1:
     resultado = numero1 + numero2;
