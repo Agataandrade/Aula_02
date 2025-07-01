@@ -26,7 +26,7 @@ if (soma1 === C1) {
   console.log("A Soma de A + B é Igual a C");
 }
 
-console.log("\n"); // quebra de linha para separar os exemplos
+console.log("\n"); 
 
 // ===============================
 // EXEMPLO 2
