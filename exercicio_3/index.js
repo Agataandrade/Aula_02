@@ -3,7 +3,7 @@ import ler = require("readline-sync");
 // Exemplo usado
 let nome = ler.question("Digite o nome do doador: ");
 let idade = ler.questionInt("Digite a idade do doador: ");
-let primeiraDoacao = ler.keyInYNStrict("É a primeira doação? (S/N): ");
+let primeiraDoacao = ler.ler.question("É a primeira doação? : ");
 
 // Verificação das condições
 if (idade < 18 || idade > 69) {
