@@ -1,5 +1,7 @@
+import ler = require("readline-sync");
+
 // Entrada de dados
-let numero = 7;
+let numero = ler.questionInt("Digite um número: ");
 
 // Variáveis para armazenar o resultado
 let parOuImpar = '';
