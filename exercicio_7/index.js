@@ -1,19 +1,12 @@
-// Descrição
-//let numero1 = 10.0;
-//let numero2 = 5.0;
-//let operacao = 1; 
-//let numero1 = 10.0;
-//let numero2 = 5.0;
-//let operacao = 2; 
-//let numero1 = 10.0;
-//let numero2 = 5.0;
-//let operacao = 4; 
-let numero1 = 10.0;
-let numero2 = 5.0;
-let operacao = 3;  // 1 = soma, 2 = subtração, 3 = multiplicação, 4 = divisão
+import ler = require("readline-sync");
+
+// Entrada de dados
+let numero1 = ler.questionFloat("Digite o primeiro número: ");
+let numero2 = ler.questionFloat("Digite o segundo número: ");
+let operacao = ler.questionInt("Digite a operação (1 = soma, 2 = subtração, 3 = multiplicação, 4 = divisão): ");
 
 // Armazenar o resultado
-let resultado = 0;
+let resultado: number | null = 0;
 let simbolo = "";
 
 
