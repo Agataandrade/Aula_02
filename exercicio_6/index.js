@@ -1,10 +1,9 @@
-// Descrição
-let nomeColaborador = "João da Silva";  // Nomes
-let codigoCargo = 1;                    // Cargos
-let salario = 10000.00;                 // Salário atual
-//let nomeColaborador = "Maria dos Anjos";  
-//let codigoCargo = 5;                    
-//let salario = 2000.00;                
+import ler = require("readline-sync");
+
+// Entrada de dados
+let nomeColaborador = ler.question("Digite o nome do colaborador: ");
+let codigoCargo = ler.questionInt("Digite o código do cargo (1 a 6): ");
+let salario = ler.questionFloat("Digite o salário atual: ");
 
 // O nome do cargo e o percentual
 let nomeCargo = "";
