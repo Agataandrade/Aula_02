@@ -1,7 +1,12 @@
+import ler = require("readline-sync");
+let palavra1 = ler.question("Digite a primeira palavra: ");
+let palavra2 = ler.question("Digite a segunda palavra : ");
+let palavra3 = ler.question("Digite a terceira palavra: ");
+
 // Teste 1 - Deve imprimir "Homem"
-let palavra1 = "vertebrado";
-let palavra2 = "mamífero";
-let palavra3 = "onívoro";
+//let palavra1 = "vertebrado";
+//let palavra2 = "mamífero";
+//let palavra3 = "onívoro";
 
 // // Teste 2 - Deve imprimir "Vaca"
 // let palavra1 = "vertebrado";
