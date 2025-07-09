@@ -1,21 +1,26 @@
+import ler = require("readline-sync");
+
 // Saldo inicial
 let saldo = 1000.00;
 
-// Operação a ser executada (1 = saldo, 2 = saque, 3 = depósito)
-let operacao = 3;  
+// Entrada de dados: operação
+let operacao = ler.questionInt("Digite a operação (1 = Saldo, 2 = Saque, 3 = Depósito): ");
 
-// Valor a ser sacado ou depositado 
-let valor = 500.00;  
+let valor = 0;
 
+// Se for saque ou depósito, pede o valor
+if (operacao === 2 || operacao === 3) {
+  valor = ler.questionFloat("Digite o valor: ");
+}
 
 switch (operacao) {
   case 1:
-    console.log("Operação - Saldo");
+    console.log("\nOperação - Saldo");
     console.log("Saldo: R$ " + saldo.toFixed(2));
     break;
 
   case 2:
-    console.log("Operação - Saque");
+    console.log("\nOperação - Saque");
     if (valor <= saldo) {
       saldo -= valor;
       console.log("Novo Saldo: R$ " + saldo.toFixed(2));
@@ -25,12 +30,12 @@ switch (operacao) {
     break;
 
   case 3:
-    console.log("Operação - Depósito");
+    console.log("\nOperação - Depósito");
     saldo += valor;
     console.log("Novo Saldo: R$ " + saldo.toFixed(2));
     break;
 
   default:
-    console.log("Operação Inválida!");
+    console.log("\nOperação Inválida!");
     break;
 }
