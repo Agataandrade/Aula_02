@@ -1,18 +1,9 @@
-//Exemplos
-//let nome = "João da Silva";
-//let idade = 62;
-//let primeiraDoacao = true; // true = primeira doação, false = já doou antes
-//let nome = "Maria dos Anjos";
-//let idade = 50;
-//let primeiraDoacao = true; // true = primeira doação, false = já doou antes
-//let nome = "Pedro Souza";
-//let idade = 68;
-//let primeiraDoacao = true; // true = primeira doação, false = já doou antes
+import ler = require("readline-sync");
 
 // Exemplo usado
-let nome = "Fábio Camões";
-let idade = 16;
-let primeiraDoacao = true; // true = primeira doação, false = já doou antes
+let nome = ler.question("Digite o nome do doador: ");
+let idade = ler.questionInt("Digite a idade do doador: ");
+let primeiraDoacao = ler.keyInYNStrict("É a primeira doação? (S/N): ");
 
 // Verificação das condições
 if (idade < 18 || idade > 69) {
