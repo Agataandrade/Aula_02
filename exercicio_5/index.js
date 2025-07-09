@@ -1,11 +1,11 @@
-// Descrição 
-let codigoProduto = 4; // 
-let quantidade = 2;    // 
-//let codigoProduto = 2; // Número 
-//let quantidade = 5;    // Quantidade comprada
+import ler = require("readline-sync");
+
+
+let codigoProduto = ler.questionInt("Digite o código do produto (1 a 6): ");
+let quantidade = ler.questionInt("Digite a quantidade desejada: ");
 
 // O nome e o preço
-let nomeProduto = "4";
+let nomeProduto = "";
 let precoUnitario = 0;
 
 // Produto e o preço
